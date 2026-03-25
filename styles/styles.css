@@ -1,12 +1,9 @@
 :root {
     /* Colors */
     --primary-color: darkblue;
-    --text-light: ;
-
     /* Border */
     --border-dark: 1px solid #000;
     --border-accent: 1px solid steelblue;
-
     /* Spaced */
     --padding-small: 10px;
     --padding-medium: 20px;
@@ -16,6 +13,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-size: 16pz;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 nav {
@@ -48,6 +50,10 @@ main img {
     margin: 0 0 1rem 1rem;
 }
 
+p {
+    margin: 1rem;
+}
+
 aside {
     width: 20em;
     text-align: center;
@@ -78,4 +84,8 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
 }
