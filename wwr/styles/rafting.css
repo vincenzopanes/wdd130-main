@@ -32,6 +32,7 @@ h2 {
     background-color: var(--accent2-color);
     padding: 8px;
     border-left: 8px solid var(--secondary-color);
+    text-align: center;
 }
 
 nav,
