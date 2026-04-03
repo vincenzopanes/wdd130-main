@@ -79,10 +79,9 @@ article {
     padding: 8px;
 }
 
-section div {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+section {
+    margin: 16px 0;
+    padding: 8px 0;
 }
 
 /* Hero */
@@ -140,19 +139,20 @@ h1 {
 /* Adventures */
 .adventure-gallery {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
 }
 
 .adventure-gallery figure {
     text-align: center;
     flex: 1;
+    margin: 0;
 }
 
 .adventure-gallery figcaption {
     margin-top: 8px;
     font-size: 0.9rem;
-    font-weight: bold;
 }
 
 /* Foorter */
