@@ -201,9 +201,20 @@ footer nav img {
     gap: 20;
 }
 
+.form-group input {
+    width: 100%;
+    max-width: 350px;
+    padding: 8px;
+    margin: 3px;
+}
+
 .map img {
     width: 100%;
     height: auto;
+}
+
+.map iframe {
+    border: 0;
 }
 
 .contact-form {
@@ -221,8 +232,16 @@ footer nav img {
 
 .contact-form fieldset {
     border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     margin: 5px 0;
-    padding: 0;
+}
+
+.contact-form fieldset label {
+    display: inline;
+    margin-left: 5px;
+    text-align: center;
 }
 
 .contact-form label {
@@ -256,6 +275,24 @@ footer nav img {
 }
 
 .employee-cards img {
-    width: 100px;
-    height: auto;
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.section-title {
+    background-color: none;
+    padding: 8px;
+    text-align: center;
+}
+
+h2 {
+    background: none;
+    border: none;
+    color: var(--accent2-color);
+}
+
+.employee-cards figcaption {
+    font-size: 0.85rem;
+    margin-top: 5px;
 }
