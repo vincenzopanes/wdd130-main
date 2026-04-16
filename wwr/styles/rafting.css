@@ -23,7 +23,7 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    max-width: 840px;
     margin: 0 auto;
 }
 
@@ -292,4 +292,72 @@ h2 {
 .employee-cards figcaption {
     font-size: 0.85rem;
     margin-top: 5px;
+}
+
+/* Call to Action */
+.call-to-action {
+    text-align: center;
+}
+
+.call-to-action button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Newsletter */
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Grid */
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Trips Grid */
+.trips-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.trip-card img {
+    width: 250px;
+    height: auto;
+}
+
+.trip-card {
+    text-align: center;
+}
+
+/* Table */
+.trip-table table {
+    width: 100px;
+    border-collapse: collapse;
+}
+
+.trip-table td,
+.trip-table th {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: var(--accent2-color);
+    color: white;
 }
